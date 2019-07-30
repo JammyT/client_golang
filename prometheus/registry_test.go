@@ -33,8 +33,8 @@ import (
 
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/golang/protobuf/proto"
 	"github.com/JammyT/common/expfmt"
+	"github.com/golang/protobuf/proto"
 
 	"github.com/JammyT/client_golang/prometheus"
 	"github.com/JammyT/client_golang/prometheus/promhttp"
