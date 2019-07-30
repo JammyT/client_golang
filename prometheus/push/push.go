@@ -43,10 +43,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/prometheus/common/expfmt"
-	"github.com/prometheus/common/model"
+	"github.com/JammyT/common/expfmt"
+	"github.com/JammyT/common/model"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/JammyT/client_golang/prometheus"
 )
 
 const (

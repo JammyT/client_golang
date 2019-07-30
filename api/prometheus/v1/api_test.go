@@ -27,9 +27,9 @@ import (
 
 	json "github.com/json-iterator/go"
 
-	"github.com/prometheus/common/model"
+	"github.com/JammyT/common/model"
 
-	"github.com/prometheus/client_golang/api"
+	"github.com/JammyT/client_golang/api"
 )
 
 type apiTest struct {

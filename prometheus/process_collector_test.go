@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/prometheus/common/expfmt"
+	"github.com/JammyT/common/expfmt"
 	"github.com/prometheus/procfs"
 
 	dto "github.com/prometheus/client_model/go"

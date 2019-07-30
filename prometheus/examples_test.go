@@ -23,12 +23,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prometheus/common/expfmt"
+	"github.com/JammyT/common/expfmt"
 
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/JammyT/client_golang/prometheus"
+	"github.com/JammyT/client_golang/prometheus/promhttp"
 )
 
 func ExampleGauge() {

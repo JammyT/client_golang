@@ -34,10 +34,10 @@ import (
 	dto "github.com/prometheus/client_model/go"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prometheus/common/expfmt"
+	"github.com/JammyT/common/expfmt"
 
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/JammyT/client_golang/prometheus"
+	"github.com/JammyT/client_golang/prometheus/promhttp"
 )
 
 // uncheckedCollector wraps a Collector but its Describe method yields no Desc.

@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prometheus/common/model"
+	"github.com/JammyT/common/model"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/JammyT/client_golang/prometheus"
 )
 
 func TestSanitize(t *testing.T) {
