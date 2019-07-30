@@ -21,7 +21,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/JammyT/client_model/go"
 )
 
 // uncheckedCollector wraps a Collector but its Describe method yields no Desc.

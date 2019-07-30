@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"github.com/JammyT/common/expfmt"
-	"github.com/prometheus/procfs"
+	"github.com/JammyT/procfs"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/JammyT/client_model/go"
 )
 
 func TestProcessCollector(t *testing.T) {

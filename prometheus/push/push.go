@@ -31,7 +31,7 @@
 //
 // See the documentation of the Pushgateway to understand the meaning of
 // the grouping key and the differences between Push and Add:
-// https://github.com/prometheus/pushgateway
+// https://github.com/JammyT/pushgateway
 package push
 
 import (

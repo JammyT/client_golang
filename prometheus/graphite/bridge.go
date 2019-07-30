@@ -28,7 +28,7 @@ import (
 	"github.com/JammyT/common/expfmt"
 	"github.com/JammyT/common/model"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/JammyT/client_model/go"
 
 	"github.com/JammyT/client_golang/prometheus"
 )

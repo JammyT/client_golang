@@ -23,7 +23,7 @@ import (
 	"testing"
 	"testing/quick"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/JammyT/client_model/go"
 )
 
 func benchmarkHistogramObserve(w int, b *testing.B) {

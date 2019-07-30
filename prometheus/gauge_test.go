@@ -21,7 +21,7 @@ import (
 	"testing/quick"
 	"time"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/JammyT/client_model/go"
 )
 
 func listenGaugeStream(vals, result chan float64, done chan struct{}) {
